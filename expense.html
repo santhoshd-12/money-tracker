@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="expense.css">
+</head>
+<body>
+     <h1 id="head">Expense Tracker</h1>
+    <div>
+        <h3></h3> Amount spend:</h3>
+        <p id="TotalAmount"> ₹0</p>
+    </div>
+
+     <div>
+        <h3>Number of expenses:</h3>
+        <p id="numexpenses"> ₹0</p>
+    </div>
+
+     <div>
+        <h3> Budget:</h3>
+        <p id="rembudget"> ₹0</p>
+    </div>
+
+
+    <form id="frm">
+
+        <label >Expense Name:</label>
+        <input type="text" id="expensename" required>
+
+        
+        <label >Amount:</label>
+        <input type="number" id="expenseamount" required>
+
+        <label>Category:</label>
+        <select id="expensecategory">
+            <option value="food">Food</option>
+             <option value="Travel">Travel</option>
+              <option value="Shoping">Shoping</option>
+               <option value="Others">Others</option>
+        </select>
+
+        <label>Date:</label>
+        <input type="date" id="expensedate">
+
+        <button id="expenseadd">Add Expense</button>
+
+        <button type="button" id="clearAll">Clear All</button>
+
+    </form>
+
+    
+
+    <script src="expense.js"></script>
+</body>
+</html>

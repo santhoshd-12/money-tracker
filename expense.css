@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dbeafe;
+    margin: 0;
+    padding: 10px 30px;
+}
+
+#head {
+    text-align: center;
+    color: #1e3a8a;
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+body > div {
+    display: inline-block;
+    width: 31%;
+    background-color: white;
+    padding: 15px;
+    margin: 0 1% 25px 0;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px #b0c4de;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+h3 {
+    color: #1e40af;
+    font-size: 22px;
+}
+
+p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2563eb;
+}
+
+#frm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    background-color: #eff6ff;
+    padding: 30px 20px;
+    border-radius: 12px;
+    margin-top: 5px;
+}
+
+input, select {
+    padding: 10px;
+    border: 1px solid #93c5fd;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+button {
+    padding: 12px 18px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
